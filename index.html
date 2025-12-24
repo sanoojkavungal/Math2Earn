@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Math2Earn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🧮 Math2Earn</h1>
+      <p>Solve • Earn • Learn</p>
+    </header>
+
+    <div class="card">
+      <div class="wallet">
+        Wallet: <span id="wallet">Not connected</span>
+      </div>
+
+      <div class="question-box">
+        <span id="question">0 + 0</span>
+      </div>
+
+      <input type="number" id="answer" placeholder="Enter your answer" />
+
+      <button id="connect">🔗 Connect Wallet</button>
+      <button id="submit">Submit Answer</button>
+
+      <p id="status"></p>
+    </div>
+
+    <footer>
+      <span>Built on Ethereum • Sepolia Testnet</span>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
